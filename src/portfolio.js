@@ -25,24 +25,24 @@ const projects = [
     description:
       'Completed an end-to-end ETL data pipeline project, utilizing Python for data extraction and transformation, SQL for data manipulation, and AWS for cloud-based storage and processing. Gained hands-on experience in cloud data engineering and automated data workflows.',
     stack: ['Python', 'SQL', 'AWS'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/ZidanCorson/data-pipeline-project',
+    livePreview: 'https://github.com/ZidanCorson/data-pipeline-project',
   },
   {
     name: 'FriendFace Social Media Platform',
     description:
-      'Developed a full-stack social media platform called FriendFace. Built the front end using Angular, JavaScript, and Node.js, and implemented the backend with Spring Boot and Java. Utilized MariaDB for database management and deployed the website using AWS static website hosting.',
+      'Developed a full-stack social media platform called FriendFace. Built the front end using Angular, JavaScript, and Node.js, and implemented the backend with Spring Boot and Java. Utilized MariaDB for database management and used AWS for cloud hosting.',
     stack: ['Angular', 'JavaScript', 'Java', 'Spring Boot', 'MariaDB', 'AWS'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/ZidanCorson/friendface-grad-project',
+    livePreview: 'https://github.com/ZidanCorson/friendface-grad-project',
   },
   {
     name: 'Bank Stock Trading Application',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Developed a full-stack stock trading platform for trading stocks and managing portfolios. Built with Angular for the frontend and Java Spring Boot for the backend, it uses AWS for cloud hosting, DynamoDB for data storage, and Docker for containerization. Implemented CI/CD pipelines.',
     stack: ['Angular', 'JavaScript', 'Java', 'Spring Boot', 'AWS'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/ScottLogic/bsl-trade-management-service',
+    livePreview: 'https://github.com/ScottLogic/bsl-portfolio-service',
   },
 ]
 
