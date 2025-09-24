@@ -40,7 +40,7 @@ const projects = [
     name: 'Bank Stock Trading Application',
     description:
       'Developed a full-stack stock trading platform for trading stocks and managing portfolios. Built with Angular for the frontend and Java Spring Boot for the backend, it uses AWS for cloud hosting, DynamoDB for data storage, and Docker for containerization. Implemented CI/CD pipelines.',
-    stack: ['Angular', 'JavaScript', 'Java', 'Spring Boot', 'AWS'],
+    stack: ['Angular', 'JavaScript', 'Java', 'Spring Boot', 'AWS', 'DynamoDB', 'Docker', 'CI/CD'],
     sourceCode: 'https://github.com/ScottLogic/bsl-trade-management-service',
     livePreview: 'https://github.com/ScottLogic/bsl-portfolio-service',
   },
