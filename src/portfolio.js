@@ -12,7 +12,7 @@ const about = {
     'Motivated and versatile professional with experience in software development, data engineering, and language services. Adept at delivering technical solutions and facilitating effective communication across diverse environments. Passionate about continuous learning and contributing to impactful projects. Seeking exciting job opportunities and project collaborations - let\'s connect!',
   resume: 'https://zidan-the-translator.netlify.app/',
   social: {
-    linkedin: 'https://www.linkedin.com/in/zidan-wang-520b5a227/',
+    linkedin: 'https://www.linkedin.com/in/zidan-wang-dev/',
     github: 'https://github.com/ZidanCorson/',
   },
 }
@@ -26,7 +26,7 @@ const projects = [
       'Completed an end-to-end ETL data pipeline project, utilizing Python for data extraction and transformation, SQL for data manipulation, and AWS for cloud-based storage and processing. Gained hands-on experience in cloud data engineering and automated data workflows.',
     stack: ['Python', 'SQL', 'AWS'],
     sourceCode: 'https://github.com/ZidanCorson/data-pipeline-project',
-    livePreview: 'https://github.com/ZidanCorson/data-pipeline-project',
+    livePreview: '',
   },
   {
     name: 'FriendFace Social Media Platform',
@@ -34,7 +34,7 @@ const projects = [
       'Developed a full-stack social media platform called FriendFace. Built the front end using Angular, JavaScript, and Node.js, and implemented the backend with Spring Boot and Java. Utilized MariaDB for database management and used AWS for cloud hosting.',
     stack: ['Angular', 'JavaScript', 'Java', 'Spring Boot', 'MariaDB', 'AWS'],
     sourceCode: 'https://github.com/ZidanCorson/friendface-grad-project',
-    livePreview: 'https://github.com/ZidanCorson/friendface-grad-project',
+    livePreview: '',
   },
   {
     name: 'Bank Stock Trading Application',
@@ -42,7 +42,23 @@ const projects = [
       'Developed a full-stack stock trading platform for trading stocks and managing portfolios. Built with Angular for the frontend and Java Spring Boot for the backend, it uses AWS for cloud hosting, DynamoDB for data storage, and Docker for containerization. Implemented CI/CD pipelines.',
     stack: ['Angular', 'JavaScript', 'Java', 'Spring Boot', 'AWS', 'DynamoDB', 'Docker', 'CI/CD'],
     sourceCode: 'https://github.com/ScottLogic/bsl-trade-management-service',
-    livePreview: 'https://github.com/ScottLogic/bsl-portfolio-service',
+    livePreview: '',
+  },
+  {
+  name: 'Intelligent Document Processing System',
+  description:
+    'A cloud-based document processing pipeline built with AWS services and Terraform IaC that automates document extraction and analysis. Users upload documents to S3, triggering Lambda functions that process documents through Amazon Textract for OCR, with structured JSON outputs stored in a dedicated S3 bucket for downstream analysis.',
+  stack: ['AWS S3', 'AWS Lambda', 'Amazon Textract', 'Terraform', 'Python'],
+  sourceCode: 'https://github.com/ScottLogic/intelligent-doc-processing',
+  livePreview: '', // Backend service - no live preview
+  },
+  {
+    name: 'Angular E-Commerce Frontend',
+    description:
+      'NgEcommerce is a full-featured e-commerce web application built with Angular (v17+) and Tailwind CSS, featuring a complete user authentication system with login and signup pages, multi-page architecture with product browsing and filtering, and shopping cart management. ',
+    stack: ['Angular', 'HTML', 'TypeScript', 'Tailwind CSS',],
+    sourceCode: 'https://github.com/ZidanCorson/ng-ecommerce',
+    livePreview: 'https://angularecommercefrontend.netlify.app/products/all',
   },
 ]
 
