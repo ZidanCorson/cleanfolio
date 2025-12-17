@@ -10,7 +10,7 @@ const about = {
   role: 'Full Stack Software Developer',
   description:
     'Motivated and versatile professional with experience in software development, data engineering, and language services. Adept at delivering technical solutions and facilitating effective communication across diverse environments. Passionate about continuous learning and contributing to impactful projects. Seeking exciting job opportunities and project collaborations - let\'s connect!',
-  resume: 'https://zidan-the-translator.netlify.app/',
+  resume: 'https://zidan-the-developer.netlify.app/',
   social: {
     linkedin: 'https://www.linkedin.com/in/zidan-wang-dev/',
     github: 'https://github.com/ZidanCorson/',
@@ -20,6 +20,14 @@ const about = {
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
+  {
+    name: 'Luxury Travel Selector',
+    description:
+      'Developed to demonstrate modern frontend capabilities, this interactive app features a polished "glassmorphism" UI built with React, TypeScript, and Bootstrap. It integrates the Open-Meteo API for real-time data, utilizes conditional rendering for seamless user flows, and showcases responsive design principles.',
+    stack: ['React', 'TypeScript', 'Vite', 'Bootstrap', 'Open-Meteo API'],
+    sourceCode: 'https://github.com/ZidanCorson/react-app',
+    livePreview: 'https://reacttravelselector.netlify.app/',
+  },
   {
     name: 'ETL Data Pipeline Project',
     description:
