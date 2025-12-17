@@ -10,7 +10,7 @@ const about = {
   role: 'Full Stack Software Developer',
   description:
     'Motivated and versatile professional with experience in software development, data engineering, and language services. Adept at delivering technical solutions and facilitating effective communication across diverse environments. Passionate about continuous learning and contributing to impactful projects. Seeking exciting job opportunities and project collaborations - let\'s connect!',
-  resume: 'https://zidan-the-developer.netlify.app/',
+  resume: 'https://zidan-developer.netlify.app/',
   social: {
     linkedin: 'https://www.linkedin.com/in/zidan-wang-dev/',
     github: 'https://github.com/ZidanCorson/',
