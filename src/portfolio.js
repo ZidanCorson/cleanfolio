@@ -25,7 +25,7 @@ const projects = [
     description:
       'Developed to demonstrate modern frontend capabilities, this interactive app features a polished "glassmorphism" UI built with React, TypeScript, and Bootstrap. It integrates the Open-Meteo API for real-time data, utilizes conditional rendering for seamless user flows, and showcases responsive design principles.',
     stack: ['React', 'TypeScript', 'Vite', 'Bootstrap', 'Open-Meteo API'],
-    sourceCode: 'https://github.com/ZidanCorson/react-app',
+    sourceCode: 'https://github.com/ZidanCorson/react-app-travel-selector',
     livePreview: 'https://reacttravelselector.netlify.app/',
   },
   {
