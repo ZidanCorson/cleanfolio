@@ -21,6 +21,22 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: 'Talk Therapy — AI-Assisted Mental Health Journaling',
+    description:
+      'A full-stack journaling app combining mood tracking with AI-powered CBT/ACT reflection sessions. Features an AI wellness companion with rolling memory, mood trend charts, psychoeducation insights, and strong privacy guardrails including encryption and GDPR-compliant data handling.',
+    stack: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'Gemini API', 'Tailwind CSS'],
+    sourceCode: 'https://github.com/ZidanCorson/Talk-therapy',
+    livePreview: 'https://cbt-talk-therapy.netlify.app/',
+  },
+  {
+    name: 'Angular E-Commerce Frontend',
+    description:
+      'NgEcommerce is a full-featured e-commerce web application built with Angular (v17+) and Tailwind CSS, featuring a complete user authentication system with login and signup pages, multi-page architecture with product browsing and filtering, and shopping cart management. ',
+    stack: ['Angular', 'HTML', 'TypeScript', 'Tailwind CSS',],
+    sourceCode: 'https://github.com/ZidanCorson/ng-ecommerce',
+    livePreview: 'https://angularecommercefrontend.netlify.app/products/all',
+  },
+  {
     name: 'Luxury Travel Selector',
     description:
       'Developed to demonstrate modern frontend capabilities, this interactive app features a polished "glassmorphism" UI built with React, TypeScript, and Bootstrap. It integrates the Open-Meteo API for real-time data, utilizes conditional rendering for seamless user flows, and showcases responsive design principles.',
@@ -59,15 +75,7 @@ const projects = [
   stack: ['AWS S3', 'AWS Lambda', 'Amazon Textract', 'Terraform', 'Python'],
   sourceCode: 'https://github.com/ScottLogic/intelligent-doc-processing',
   livePreview: '', // Backend service - no live preview
-  },
-  {
-    name: 'Angular E-Commerce Frontend',
-    description:
-      'NgEcommerce is a full-featured e-commerce web application built with Angular (v17+) and Tailwind CSS, featuring a complete user authentication system with login and signup pages, multi-page architecture with product browsing and filtering, and shopping cart management. ',
-    stack: ['Angular', 'HTML', 'TypeScript', 'Tailwind CSS',],
-    sourceCode: 'https://github.com/ZidanCorson/ng-ecommerce',
-    livePreview: 'https://angularecommercefrontend.netlify.app/products/all',
-  },
+  }
 ]
 
 const skills = [
