@@ -76,6 +76,15 @@ const projects = [
   sourceCode: 'https://github.com/ScottLogic/intelligent-doc-processing',
   livePreview: '', // Backend service - no live preview
   }
+  ,
+  {
+    name: 'Baobaby Bao & Coffee Marketing Website - React',
+    description:
+      'I led the end-to-end development of Baobaby’s marketing website, a vibrant React-based web application built to showcase a local food brand in Gosforth. The project featured a custom gallery, interactive menus, and a seamless user experience, with TypeScript and modular CSS used to support maintainability and scalability. I was responsible for UI design, implementation, deployment, responsive behavior, component architecture, and version control using Git and GitHub.',
+    stack: ['React', 'Vite', 'Tailwind CSS', 'OpenAI API'],
+    sourceCode: 'https://github.com/ZidanCorson/Baobaby-react',
+    livePreview: 'https://baobaby-react.vercel.app/',
+  }
 ]
 
 const skills = [

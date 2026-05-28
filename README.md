@@ -31,11 +31,19 @@ fnm install
 fnm use
 ```
 
-To install and launch the project, run these commands:
 
+To install and launch the project, run these commands (choose one method):
+
+**Using Yarn:**
 ```shell
 yarn
 yarn start
+```
+
+**Or using npm:**
+```shell
+npm install
+npm start
 ```
 
 ### How to Use
