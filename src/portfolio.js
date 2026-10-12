@@ -21,12 +21,36 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: 'IELTS Listening Pro — Diagnostic Listening Practice',
+    description:
+      'A free IELTS listening practice platform that goes beyond scoring: every wrong answer is tagged with a reason (spelling, singular/plural, distractor, or pace), then replays only the few seconds that held the missed answer. Includes 3 full mock tests plus 53 question sets built on public-domain VOA Learning English audio, aligned line-by-line via speech recognition, covering all official IELTS question types with official band-score conversion.',
+    stack: ['React', 'Vite'],
+    sourceCode: 'https://github.com/ZidanCorson/IELTS-Listening',
+    livePreview: 'https://ielts-listening-pro.netlify.app/',
+  },
+  {
     name: 'Talk Therapy — AI-Assisted Mental Health Journaling',
     description:
       'A full-stack journaling app combining mood tracking with AI-powered CBT/ACT reflection sessions. Features an AI wellness companion with rolling memory, mood trend charts, psychoeducation insights, and strong privacy guardrails including encryption and GDPR-compliant data handling.',
     stack: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'Gemini API', 'Tailwind CSS'],
     sourceCode: 'https://github.com/ZidanCorson/Talk-therapy',
     livePreview: 'https://cbt-talk-therapy.netlify.app/',
+  },
+  {
+    name: 'Phil Fitness — Personal Trainer Marketing Site',
+    description:
+      'A marketing site for a Newcastle-based personal trainer, built to convert visitors into free-consultation bookings. Showcases 1-2-1, online, and small-group coaching options, client testimonials, and a direct Instagram/email booking flow, with a bold dark theme and scroll-driven animations.',
+    stack: ['React', 'Vite'],
+    sourceCode: 'https://github.com/ZidanCorson/PhilFitness',
+    livePreview: 'https://phil-fitness.vercel.app/',
+  },
+  {
+    name: 'Baobaby Bao & Coffee Marketing Website - React',
+    description:
+      'I led the end-to-end development of Baobaby’s marketing website, a vibrant React-based web application built to showcase a local food brand in Gosforth. The project featured a custom gallery, interactive menus, and a seamless user experience, with TypeScript and modular CSS used to support maintainability and scalability. I was responsible for UI design, implementation, deployment, responsive behavior, component architecture, and version control using Git and GitHub.',
+    stack: ['React', 'Vite', 'Tailwind CSS', 'OpenAI API'],
+    sourceCode: 'https://github.com/ZidanCorson/Baobaby-react',
+    livePreview: 'https://baobaby-react.vercel.app/',
   },
   {
     name: 'Angular E-Commerce Frontend',
@@ -49,7 +73,7 @@ const projects = [
     description:
       'Completed an end-to-end ETL data pipeline project, utilizing Python for data extraction and transformation, SQL for data manipulation, and AWS for cloud-based storage and processing. Gained hands-on experience in cloud data engineering and automated data workflows.',
     stack: ['Python', 'SQL', 'AWS'],
-    sourceCode: 'https://github.com/ZidanCorson/data-pipeline-project',
+    sourceCode: '',
     livePreview: '',
   },
   {
@@ -57,7 +81,7 @@ const projects = [
     description:
       'Developed a full-stack social media platform called FriendFace. Built the front end using Angular, JavaScript, and Node.js, and implemented the backend with Spring Boot and Java. Utilized MariaDB for database management and used AWS for cloud hosting.',
     stack: ['Angular', 'JavaScript', 'Java', 'Spring Boot', 'MariaDB', 'AWS'],
-    sourceCode: 'https://github.com/ZidanCorson/friendface-grad-project',
+    sourceCode: '',
     livePreview: '',
   },
   {
@@ -65,7 +89,7 @@ const projects = [
     description:
       'Developed a full-stack stock trading platform for trading stocks and managing portfolios. Built with Angular for the frontend and Java Spring Boot for the backend, it uses AWS for cloud hosting, DynamoDB for data storage, and Docker for containerization. Implemented CI/CD pipelines.',
     stack: ['Angular', 'JavaScript', 'Java', 'Spring Boot', 'AWS', 'DynamoDB', 'Docker', 'CI/CD'],
-    sourceCode: 'https://github.com/ScottLogic/bsl-trade-management-service',
+    sourceCode: '',
     livePreview: '',
   },
   {
@@ -73,17 +97,8 @@ const projects = [
   description:
     'A cloud-based document processing pipeline built with AWS services and Terraform IaC that automates document extraction and analysis. Users upload documents to S3, triggering Lambda functions that process documents through Amazon Textract for OCR, with structured JSON outputs stored in a dedicated S3 bucket for downstream analysis.',
   stack: ['AWS S3', 'AWS Lambda', 'Amazon Textract', 'Terraform', 'Python'],
-  sourceCode: 'https://github.com/ScottLogic/intelligent-doc-processing',
-  livePreview: '', // Backend service - no live preview
-  }
-  ,
-  {
-    name: 'Baobaby Bao & Coffee Marketing Website - React',
-    description:
-      'I led the end-to-end development of Baobaby’s marketing website, a vibrant React-based web application built to showcase a local food brand in Gosforth. The project featured a custom gallery, interactive menus, and a seamless user experience, with TypeScript and modular CSS used to support maintainability and scalability. I was responsible for UI design, implementation, deployment, responsive behavior, component architecture, and version control using Git and GitHub.',
-    stack: ['React', 'Vite', 'Tailwind CSS', 'OpenAI API'],
-    sourceCode: 'https://github.com/ZidanCorson/Baobaby-react',
-    livePreview: 'https://baobaby-react.vercel.app/',
+  sourceCode: '',
+  livePreview: 'https://docs.aws.amazon.com/solutions/intelligent-document-processing-on-aws/',
   }
 ]
 
