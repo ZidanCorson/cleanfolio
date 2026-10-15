@@ -21,6 +21,14 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: 'IELTS Speaking Coach — AI Speaking Examiner',
+    description:
+      'Get a higher IELTS speaking band with your own AI examiner. Speak your answer and get instant band scores across all four IELTS criteria (fluency, lexical resource, grammar, pronunciation), see a band-8 rewrite of your own answer, build a personal vocabulary bank, and practise Part 1, 2 and 3 questions with prep timers and full mock tests.',
+    stack: ['React', 'TypeScript', 'Vite', 'Express', 'Neon (Postgres)', 'Gemini API'],
+    sourceCode: 'https://github.com/ZidanCorson/Ielts-speaking',
+    livePreview: 'https://ielts-speaking-bot.vercel.app/',
+  },
+  {
     name: 'IELTS Listening Pro — Diagnostic Listening Practice',
     description:
       'A free IELTS listening practice platform that goes beyond scoring: every wrong answer is tagged with a reason (spelling, singular/plural, distractor, or pace), then replays only the few seconds that held the missed answer. Includes 3 full mock tests plus 53 question sets built on public-domain VOA Learning English audio, aligned line-by-line via speech recognition, covering all official IELTS question types with official band-score conversion.',
